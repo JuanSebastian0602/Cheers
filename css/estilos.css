@@ -1,0 +1,146 @@
+/* Valores globales */
+
+body {
+  background-color: #2a2d30;
+}
+
+body p {
+  font-size: 1.20rem;
+}
+
+/* -- navbar flex --*/
+
+.navigation-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 100%
+}
+
+.left-side {
+  width: 18%;
+}
+
+.middle-side {
+  width: 52%;
+  margin-top: 1.5rem;
+}
+
+.right-side {
+  width: 30%;
+  margin-top: 1rem;
+
+  text-align: end;
+}
+
+.middle-side ul li{
+  font-size: 1.23rem;
+
+  display: inline-block;
+  padding: 0 1.5rem;
+}
+
+.middle-side a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.middle-side a:hover {
+  opacity: 0.7;
+}
+
+.right-side ul li {
+  font-size: 1.23rem;
+
+  display: inline-block;
+  padding: 0 1.5rem;
+}
+
+.right-side a {
+  color: white;
+  text-decoration: none;
+  background-color: blueviolet;
+  padding: .7rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(178, 31, 252, 0.7);
+  transition: 0.3s;
+}
+
+.right-side a:hover{
+  background-color: rgb(255, 166, 0);
+  transform: scale(1.2);
+  display: inline-block;
+}
+
+
+
+/* Propiedades del logo */
+
+.logo {
+  width: 70px;
+  height: 55px;
+
+  margin: 0 1rem 0 5px;
+}
+
+.logo-letters {
+  width: 140px;
+  height: 50px;
+}
+
+/* Cheers box  along with the carousel*/
+
+.cheers-box {
+  width: 50%;
+  height: 650px;
+
+  position: relative;
+  background-color: rgba(54, 54, 54, 0.8);
+  bottom: 670px;
+  box-shadow: 16px 2px 32px 5px rgba(54, 54, 54, 0.75);
+
+  text-align: center;
+}
+
+.content {
+  margin: 1.5rem;
+  padding: 5rem;
+}
+
+.cheers-box {
+  color: white;
+}
+
+.paragraph {
+  margin: 2.6rem 0;
+}
+
+.buttons {
+  margin-right: 2rem;
+}
+
+.buttons ul li {
+  font-size: 1.23rem;
+
+  display: inline-block;
+  padding: 0 1rem;
+}
+
+.buttons a {
+  color: white;
+  text-decoration: none;
+  background-color: blueviolet;
+  padding: .7rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(178, 31, 252, 0.7);
+  transition: 0.3s;
+}
+
+.buttons a:hover{
+  display: inline-block;
+  background-color: rgb(255, 166, 0);
+  transform: scale(1.2);
+}
