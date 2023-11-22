@@ -91,7 +91,7 @@ body p {
   height: 50px;
 }
 
-/* Cheers box  along with the carousel*/
+/* Cheers box along with the carousel*/
 
 .cheers-box {
   width: 50%;
@@ -144,3 +144,28 @@ body p {
   background-color: rgb(255, 166, 0);
   transform: scale(1.2);
 }
+
+
+/*Estilos formulario en contacto.html*/
+
+.contenedor-formulario{
+  width: 300px;
+  margin: 100px;
+  background-color :antiquewhite;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.titulo-formulario{
+  background-color: antiquewhite;
+  display: inline;
+}
+
+label{
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+
