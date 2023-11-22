@@ -4,17 +4,37 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Contacto</title>
+	<link rel="stylesheet" href="../styles/estilos.css">
 </head>
 <body>
 	<header>
 		<h1>CONTÁCTENOS</h1>
 		<img src="../img/logo.jpg" alt="">
 	</header>
-	
-	<div>
-		<form action=""></form>
-
-	</div>
-	
+	<!-- Formulario -->
+		<div class="contenedor-formulario">
+			<form action="#" method="post">
+				<h3 class="titulo-formulario">CONTACTÉNOS</h3>
+				<br>
+				<div class="input-contenedor">
+				<br>
+				<label for="">Nombre</label>
+				<input type="text" required placeholder="Nombre" maxlength="10">
+				<br>
+				<label for="">Correo electrónico</label>
+                <input type="email" required placeholder="Correo electrónico" id="">
+               	<br>
+				<label for="">Número de teléfono</label>
+				<input type="tel" required placeholder="Número de teléfono" name="" id="">
+				<br>
+				<label for="">¿Para qué te comunicas?</label>
+                <input type="text" required placeholder="¿Para qué te comunicas?" id="">
+                <br> 
+				<label for="">Su mensaje</label>
+                <input type="text" required placeholder="Tú mensaje" id="">
+				<br>
+                <button type="submit">Enviar Información</button>
+            </form>
+        </div>
 </body>
 </html>
