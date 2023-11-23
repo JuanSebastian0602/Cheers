@@ -147,12 +147,15 @@ body p {
 
 
 /*Estilos formulario en contacto.html*/
+h4{
+  text-align: center;
+}
 
 .contenedor-formulario{
-  width: 300px;
+  width: 400px;
   margin: 100px;
-  background-color :antiquewhite;
-  padding: 20px;
+  background-color :white;
+  padding: 5px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
@@ -167,5 +170,6 @@ label{
   font-weight: bold;
   margin-bottom: 5px;
 }
+
 
 

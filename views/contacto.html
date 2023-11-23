@@ -4,33 +4,61 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/estilos.css">
-    <link rel="icon" type="image/x-icon" href="img/logo2.png">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="icon" type="image/x-icon" href="../img/Logo2.png">
     <title>Contacto</title>
 </head>
 <body>
     <header>
-		<img src="../img/Logo2.png" alt=""> 
 		<!-- Navbar de la página -->
-		<!--  
+		
         <nav class="navbar fixed-top navbar-dark bg-dark" style="left: 0; right: 0;">
             <div class="navigation-flex">
-				<div class="left-side">
+                <div class="left-side">
                     <a class="navbar-brand" href="#">
-                        <img src="img/Logo2.png" alt="Imagen del logo de Cheers" class="logo">
-                        <img src="img/Logo-letters.png" alt="Letras del logo de Cheers" class="logo-letters">
+                        <img src="../img/Logo2.png" alt="Imagen del logo de Cheers" class="logo">
+                        <img src="../img/Logo-letters.png" alt="Letras del logo de Cheers" class="logo-letters">
                       </a>
                 </div>
-               
+                <div class="middle-side">
+                    <ul class="navigation-menu">
+                        <li>
+                            <a href="../index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#">Sobre Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="../views/menu-bebidas.html">Menú de Bebidas</a>
+                        </li>
+                        <li>
+                            <a href="../views/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-side">
+                    <ul>
+                        <li>
+                            <a href="#" class="btn">
+                                Reservar
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn">
+                                Iniciar sesión
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
           </nav>
     </header>
-	-->
+	
 	<!-- Formulario -->
 	<form>
 		<div class="contenedor-formulario">
 			<form action="#" method="post">
-				<h3>Contáctenos</h3>
-				<br>
+				<h4>CONTÁCTENOS</h4>
 				<div class="input-contenedor">
 					<br>
 					<label for="exampleFormControlInput1">Nombre</label>
@@ -50,7 +78,6 @@
 					<br>
 					<label for="exampleFormControlTextarea1">Su mensaje</label>
 					<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-					<br>
 					<br>
 					<button type="submit">Enviar</button>
 				</div>
