@@ -106,7 +106,7 @@ h2 {
   height: 50px;
 }
 
-/* Cheers box  along with the carousel*/
+/* Cheers box along with the carousel*/
 
 .cheers-box {
   width: 50%;
@@ -290,4 +290,64 @@ footer {
   100% {
     color: rgb(255, 166, 0);
   }
+}
+
+=======
+
+/*Estilos formulario en contacto.html*/
+h4{
+  color: white;
+  text-align: center;
+}
+
+.contenedor-formulario{
+  width: 450px;
+  margin: 100px;
+  padding: 5px;
+}
+
+.titulo-formulario{
+  background-color: antiquewhite;
+  display: inline;
+}
+
+label{
+  color: white;
+  padding: 5px;
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.mapa{
+  
+  display: flex;
+  margin-left: auto;
+}
+
+
+.contenido{
+  width: 100%;
+  max-width: 1300px;
+  display: flex;
+  justify-content:end;
+ 
+}
+
+button{
+  font-size: 1rem;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  background-color: blueviolet;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(178, 31, 252, 0.7);
+  transition: 0.3s;
+	padding: 10px 20px;
+}
+
+button:hover{
+  display: inline-block;
+  background-color: rgb(255, 166, 0);
+  transform: scale(1);
 }

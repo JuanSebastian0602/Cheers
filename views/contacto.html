@@ -3,18 +3,94 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Contacto</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="icon" type="image/x-icon" href="../img/Logo2.png">
+    <title>Contacto</title>
 </head>
 <body>
-	<header>
-		<h1>CONTÁCTENOS</h1>
-		<img src="../img/logo.jpg" alt="">
-	</header>
-	
-	<div>
-		<form action=""></form>
+    <header>
+		<!-- Navbar de la página -->
+		
+        <nav class="navbar fixed-top navbar-dark bg-dark" style="left: 0; right: 0;">
+            <div class="navigation-flex">
+                <div class="left-side">
+                    <a class="navbar-brand" href="#">
+                        <img src="../img/Logo2.png" alt="Imagen del logo de Cheers" class="logo">
+                        <img src="../img/Logo-letters.png" alt="Letras del logo de Cheers" class="logo-letters">
+                      </a>
+                </div>
+                <div class="middle-side">
+                    <ul class="navigation-menu">
+                        <li>
+                            <a href="../index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="../views/about.html">Sobre Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="../views/menu-bebidas.html">Menú de Bebidas</a>
+                        </li>
+                        <li>
+                            <a href="../views/contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="right-side">
+                    <ul>
+                        <li>
+                            <a href="#" class="btn">
+                                Reservar
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="btn">
+                                Iniciar sesión
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </nav>
+    </header>
 
-	</div>
-	
+    <section class="contenido">
+		<!-- Formulario -->
+	<form>
+		<div class="contenedor-formulario">
+			<form action="#" method="post">
+				<h4>CONTÁCTENOS</h4>
+				<div class="input-contenedor">
+					<br>
+					<label for="exampleFormControlInput1">Nombre</label>
+					<input type="text" class="form-control" id="exampleFormControlInput1" required placeholder="Ingrese su Nombre">
+					<br>
+					 <label for="exampleFormControlInput2">Correo electrónico</label>
+					 <input type="email" class="form-control" id="exampleFormControlInput2" required placeholder="name@example.com">
+					 <br>
+					 <label for="exampleFormControlInput3">Número de teléfono</label>
+					 <input type="tel" class="form-control" id="exampleFormControlInput3" required placeholder="Número de teléfono">
+					<br>
+					<label for="exampleFormControlSelect1">¿Para qué te comunicas?</label>
+					<select class="form-control" id="exampleFormControlSelect1" required placeholder="Para qué te comunicas">
+			  			<option>Consulta general</option>
+			 			 <option>PQRS</option>
+					</select>
+					<br>
+					<label for="exampleFormControlTextarea1">Su mensaje</label>
+					<textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+					<br>
+					<button type="submit">Enviar</button>
+				</div>
+			</form>
+		</div>
+	</form>	
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2804.69220345256!2d-75.56738303378059!3d6.2063761362811105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4682827d170981%3A0x9f056aa8ec6d6f75!2sCra.%2035%20%237-47%2C%20El%20Poblado%2C%20Medell%C3%ADn%2C%20El%20Poblado%2C%20Medell%C3%ADn%2C%20Antioquia!5e0!3m2!1ses!2sco!4v1700786003779!5m2!1ses!2sco" 
+        class="mapa" width="500px" height="500px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
 </body>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </html>
