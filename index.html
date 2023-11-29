@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/estilos.css">
-    <link rel="icon" type="image/x-icon" href="img/logo2.png">
+    <link rel="icon" type="image/x-icon" href="img/Logo2.png">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>Cheers</title>
 </head>
 <body>
 
     <header>
         <!-- Navbar de la página -->
-        <nav class="navbar fixed-top navbar-dark bg-dark" style="left: 0; right: 0;">
+        <nav class="navbar fixed-top navbar-dark bg-dark">
             <div class="navigation-flex">
                 <div class="left-side">
                     <a class="navbar-brand" href="#">
@@ -23,13 +25,13 @@
                 <div class="middle-side">
                     <ul class="navigation-menu">
                         <li>
-                            <a href="index.html">Inicio</a>
+                            <a href="#inicio" class="item-nav active-nav">Inicio</a>
                         </li>
                         <li>
-                            <a href="#">Sobre Nosotros</a>
+                            <a href="#Nosotros">Sobre Nosotros</a>
                         </li>
                         <li>
-                            <a href="views/menu-bebidas.html">Menú de Bebidas</a>
+                            <a href="#">Menú de Bebidas</a>
                         </li>
                         <li>
                             <a href="views/contacto.html">Contacto</a>
@@ -44,7 +46,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="btn">
+                            <a href="views/login.html" class="btn">
                                 Iniciar sesión
                             </a>
                         </li>
@@ -54,7 +56,7 @@
           </nav>
     </header>
 
-    <div class="main">
+    <section class="main" id="inicio">
       <!-- Carrusel de imagenes -->
 
       <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
@@ -70,13 +72,13 @@
           </div>
         </div>
       </div>
+    </section>
 
-      <!-- Caja de bienvenida -->
+    <!-- Caja de bienvenida -->
 
-      <div class="cheers-box">
-
-        <div class="content">
-          <h1>¡Bienvenido a <strong>'Cheers'!</strong></h1>
+    <div class="cheers-box">
+      <div class="content">
+        <h1>¡Bienvenido a <strong>'Cheers'!</strong></h1>
 
           <div class="paragraph">
             <p>¡Hola, bienvenido a la página web oficial de <strong>'Cheers'</strong>, El exclusivo Bar ubicado en el sector del poblado!</p>
@@ -103,13 +105,85 @@
             </ul>
           </div>
 
-        </div>
       </div>
     </div>
+
+    <!-- Sección "Sobre nosotros" -->
+
+    <section id="Nosotros">
+      <h2 id="Nosotros">¡Sobre nosotros!</h2>
+
+      <div class="sobre-nosotros p-5">
+
+        <div class="card-about">
+          <img src="img/Mision.png" alt="Imagen de misión" class="about-items mt-5 mb-5">
+          <p>
+            Ofrecer experiencias memorables a través de bebidas excepcionales,
+            ambiente acogedor y servicio de calidad, creando un espacio de encuentro único y
+            vibrante para nuestros clientes.
+          </p>
+        </div>
+        <div class="card-about">
+          <img src="img/Vision.png" alt="Imagen de misión" class="about-items mt-5 mb-5">
+          <p>
+            Ser reconocidos como el destino preferido, donde la calidad de las bebidas,
+            el ambiente acogedor y la atención excepcional convergen para crear momentos inolvidables,
+            estableciéndonos como un referente en la escena local de entretenimiento.
+          </p>
+        </div>
+        <div class="card-about">
+          <img src="img/Valores.png" alt="Imagen de misión" class="about-items mt-5 mb-5">
+          <p>
+            Prioridad a la mejor calidad posible de atención para cada cliente de nuestro establecimiento.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Pie de página -->
+
+  <footer>
+
+    <div class="footer-info">
+      <img src="img/Logo.png" alt="Logo de 'Cheers'" style="width: 165px; height: 150px;">
+      <p>¿Te ha gustado lo que ofrecemos? ¡Empieza ya, Cheers abre las puertas a un sin fín de experiencias!</p>
+
+      <div class="sm-icons">
+        <a href="#" class="btn"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#" class="btn"><i class="fa-brands fa-instagram"></i></a>
+        <a href="views/contacto.html" class="btn"><i class="fa-solid fa-envelope"></i></a>
+        <a href="#" class="btn"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="" class="btn"><i class="fa-brands fa-tiktok"></i></a>
+      </div>
+    </div>
+
+    <div class="footer-info">
+
+      <h3><strong>Cheers:</strong></h3>
+
+          <li><a href="#inicio" class="btn">Volver al inicio</a></li>
+          <li><a href="views/contacto.html" class="btn">¡Contáctanos!</a></li>
+          <li><a href="#" class="btn">Ver el catálogo de bebidas</a></li>
+
+          <a href="#" class="footer-button btn">Reservar</a>
+
+    </div>
+
+    <div class="footer-info">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7932.834082454754!2d-75.57309285873376!3d6.208595525116983!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442829f90bb179%3A0x950c0471dca37671!2sLa%20Octava%20Bar!5e0!3m2!1ses-419!2sco!4v1700793652925!5m2!1ses-419!2sco" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+  </footer>
+
+  <div class="derechos">
+    <h4>Todos los derechos reservados - Cheers&copy;</h4>
+  </div>
 
 </body>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="js/landing.js"></script>
 </html>
