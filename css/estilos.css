@@ -106,7 +106,7 @@ h2 {
   height: 50px;
 }
 
-/* Cheers box along with the carousel*/
+/* Cheers box  along with the carousel*/
 
 .cheers-box {
   width: 50%;
@@ -245,7 +245,7 @@ footer {
   border-radius: 10px;
 
   transition: .3s;
-  box-shadow: 0px 0px 10px rgba(178, 31, 252, 0.5);
+  box-shadow: 0px 0px 10px rgba(178, 31, 252, 0.7);
 }
 
 .footer-button:hover {
@@ -292,9 +292,8 @@ footer {
   }
 }
 
-=======
+/* estilos contacto html */
 
-/*Estilos formulario en contacto.html*/
 h4{
   color: white;
   text-align: center;
@@ -320,7 +319,7 @@ label{
 }
 
 .mapa{
-  
+
   display: flex;
   margin-left: auto;
 }
@@ -331,7 +330,7 @@ label{
   max-width: 1300px;
   display: flex;
   justify-content:end;
- 
+
 }
 
 button{
