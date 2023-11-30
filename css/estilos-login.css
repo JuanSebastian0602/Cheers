@@ -38,6 +38,46 @@
   animation: color-loop 1.5s infinite;
 }
 
+.register-container {
+  width: 100%;
+  height: 780px;
+  margin: 9rem 0 2rem 0;
+
+  display: flex;
+  justify-content: space-around;
+}
+
+.register-box {
+  width: 40%;
+  height: 100%;
+  background-color: rgba(38, 34, 40, .6);
+  border-radius: 15px;
+
+  padding: 2rem;
+}
+
+.register-box label {
+  color: rgb(230, 230, 230);
+}
+
+.register-box form {
+  margin: 2rem 0 0 0;
+  height: 100%;
+}
+
+.register-box small {
+  color: rgb(189, 189, 189);
+}
+
+.register-box a {
+  color: rgb(226, 153, 43);
+  text-decoration: none;
+}
+
+.register-box a:hover {
+  animation: color-loop 1.5s infinite;
+}
+
 .cheers-input {
   background-color: rgb(90, 90, 90);
   display: block;
